@@ -1,0 +1,461 @@
+/* Base styles for Tempo Kitchen-----------------*/
+body{
+    color: grey;
+    margin: 0;
+    font-size: 1em;
+    font-family: Helvetica, ans-serif; monospace;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: "Amatic SC";
+    color: #66cdaa;/*mediumaquamarine */
+    color: rgba (102, 205, 170, .4);
+    padding-top: 0px;
+    margin-top: 0px;
+
+    /*  margin-top: 30px;
+      margin-left: 20px;*/
+    text-align: center;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 2rem;
+    color: # 48525c;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 30px 0;
+}
+
+/*
+    li {
+    margin-bottom: 10px;
+    }
+*/
+
+/*Pseudo-Classes--need to add the href atribut-------------*/
+a:link {
+    color: lightblue;
+}
+
+a:visited {
+    color: #66cdaa;
+}
+
+a:hover {
+    color: teal;
+}
+
+/*  a:active {
+      color: lightcoral;
+  }*/
+:link:hover { outline: dotted red; }
+
+a:focus {
+    color: white;
+    background-color: orange;
+}
+
+/* Main Styles---*/
+
+.main-header {
+    padding-top: 170px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 0%;
+    height: 300px;
+
+    background:
+            slategrey url('cafe.jpg') no-repeat 30% 49%;
+
+    /*background-color: aquamarine;
+    background-image: url('cafe.jpg');
+    background-repeat: no-repeat;
+    background-position: 30% 49%;
+
+    background-size: 40%;*/
+
+}
+
+
+/*.main-header {
+      padding-top: 50px;
+      padding-bottom: 70px;
+      color: white;
+      font-size:
+*/
+
+
+/*linear-gradient( aquamarine, transparent 90%),*/
+#title {
+    color: pink;
+    font-size: 120px;
+    padding-top: 50px;
+}
+
+#title {
+    color: snow;
+    font-size: 23px;
+    padding-top: 24px;
+    margin-top: -90px;
+}
+
+/* .nav-bar {
+     text-align: center;
+ }*/
+
+.primary-content,
+.main-header,
+.nav-bar,
+.t-border {
+    text-align: center;
+}
+
+.primary-content {
+    padding-top: 25px;
+    padding-bottom: 95px;
+
+}
+
+
+.secondary-content {
+    margin-top: 160x;
+    padding-bottom: 170px;
+
+}
+
+.callout {
+    font-size: 1.25em;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding: 20px 9px 0px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+/*.secondary-content {
+overflow: auto;
+
+}*/
+
+.contact {
+
+    background-image:
+            linear-gradient(180deg, #fff, transparent),
+            url('cafe.jpg');
+    background-position: 30% 95%;
+    background-size: cover;
+}
+
+#main-footer {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: solid 10px gray;
+
+
+}
+
+.t-border {
+    border-top: 2px solid lightgrey;
+}
+
+
+/*Layout Styles-----------*/
+
+/*   header {
+       padding-top: 100px;
+       padding-right: 120px;
+       padding-bottom: 100px;
+       padding-left: 120px;
+   }*/
+.primary-content {
+    width: 60%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.secondary-content {
+    width: 65%
+    max-width: 900px;
+    padding: 30px;
+}
+
+.services {
+    color:  blanchedalmond;
+    background-color: #434a52;
+    padding: 10% 25%;
+
+    border-top: 10px solid blanchedalmond;
+    margin: 105px 0 60px;
+
+
+    /*    padding-top: 100px;
+        padding-right: 120px;
+        padding-bottom: 100px;
+        padding-left: 120px;*/
+
+}
+
+.one,
+.two,
+.three {
+    margin-top: 50px;
+    padding: 35px;
+}
+
+/* Floated Columns-----*/
+
+.one,
+.two,
+.three {
+    width: 27%
+}
+
+.two {
+    float: left;
+}
+
+.one {
+    float: left;
+}
+
+.three {
+    float: right;
+}
+
+
+/* Float Clearfix----------*/
+
+.group:: after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+/*max-width is a useful tool to control the content from being too wide, is also useful for img  */
+/*.mission {
+  color: white;
+  background-color: grey;
+  padding-top: 100px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+
+  border-width: 10px;
+  border-style: solid dashed;
+  border-color: aquamarine;
+
+
+
+  width: 60%;
+
+
+
+  margin-left: 305px 60px;
+
+}
+
+.arrow {
+    font-size: 50px;
+    color: lightblue;
+    padding-top: 50px;
+    margin-bottom: 0;
+}*/
+
+
+
+/*background-image: radial-gradient(circle at top, aquamarine, teal)*/
+}
+
+/*max-value: 100%;
+padding-top: 30px;
+padding-left: 50px;---*/
+
+
+/* Font Properties-----*/
+
+
+p {
+    font-weight: lighter;
+}
+
+/*Adding a horizantal line*/
+
+
+
+/*p{
+  font-size: 20px;
+  color: lightslatergrey;
+  font-family: monospace;
+}--*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/* Media Queries--------------------------------------------------------------------------------------------------------------*/
+
+/* @media (max-width: 960px) {
+     body {
+         background:blue;
+
+     }
+     p {
+     color: white;
+     }
+
+ }*/
+
+@media (max-width: 960px) {
+
+    body {
+        background: #384047;
+    }
+
+    p {
+        color: snow;
+    }
+
+    h1,
+    h3,
+    h4 {
+        color: #66cdaa;
+    }
+}
+
+@media (max-width: 1024px) {
+    .primary-content,
+    .secondary-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .primary-content,
+    .secondary-content {
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .main-header {
+        max-height: 380;
+        padding: 50px 25px 0;
+
+    }
+
+    .title {
+        font-size: 1.3rem;
+
+    }
+
+    h1 {
+        font-size: 1rem;
+
+    }
+
+    .one,
+    .two,
+    .three {
+        float: none;
+        width: 100%;
+
+    }
+}
+
+/* @media (max-width: 960px) {
+   body {
+       background: royalblue;
+
+   }
+
+   p {
+       color: white;
+   }
+}
+
+@media (max-width: 480px;) {
+   body {
+       background: darkred;
+
+   }
+}
+
+@media (min-width: 481px) and (max-width {
+
+
+}--*/
+
+
+/*@media (max-width: 1024px) {
+    .primary-content,
+    .secondary-content {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .primary-content,
+    .secondary-content {
+            width: 100%;
+            padding: 20px;
+            border: none;
+}
+
+
+*/
+/*.main-header {
+    max-height: 388px;
+    padding: 50px 25px 0;
+
+}
+
+title {
+    font-size:
+}
+
+}---*>
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
