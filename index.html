@@ -3,105 +3,107 @@
     <head>
         <meta charset="UTF-8">
         <title>Tempo Kitchen</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amatic+SC">
         <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
-        <header id="top" class="main-header">
-            <h1><!--a href="">-->Tempo Kitchen<!--</a>--></h1>
-            <div id="title" class="title">Pup-op Catering Company and Canteen</div>
-        </header><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
-        <div class="main-wrapper">
-         <ul class="nav-bar">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Memberships</a></li>
-            <li><a href="contact.html">Contact</a></li>
+       <div class="wrapper">
+            <header id="top" class="main-header">
+                    <h1 class="title"><a href="">Tempo Kitchen</a></h1>
+                    <div class="sub">Pup-op Catering Company and Canteen</div>
+            </header>
+                
+        <ul class="flex-container">
+            <li class="nav-bar home"><a href="">Home</a></li>
+            <li class="nav-bar about"><a href="">About</a></li>
+            <li class="nav-bar service"><a href="">Memberships</a></li>
+            <li class="nav-bar call"><a href="contact.html">Contact</a></li>
         </ul>
-         </div>
-
-    <div class="primary-content">
-        <p class="intro"><span class="lead">Tempo Kitchen is a pup-op canteen and lunch room for small-size companies.</span> We provide daily fresh and nutritious homemade lunch for your team. You can leave your PB&J sandwiches at home and focus on your creativity!!
-            Passion for creating exotic sandwiches and new dishes ... We use seasonal produce and high quality products.
-        </p>
-        <a class="callout" href="">Find Out More</a>
-
-
-        <!--What are our services?-->
-        <div class="services">
-            <h3>Check out all the Services</h3>
-            <p>We are the new generation of canteen catering, a pop-up neighborhood cafe for the temporary urbanism, We bring together the community and the creative class, provide an environment where creativity improvises, we are the new generation of and We invite you to join in our journey
-            </p>
-        </div><!--End .services-->
-
-        <a class="callout">click here</a>
-    </div><!--End .primary-content-->
-    <hr/>
-    <!--memberships-->
-    <div class="secondary-content group">
-        <div class="one">
-            <a href="#"><img src="CSS/group.jpg" alt="group-membership"/></a>
-            <h4>Enterprise membership</h4>
-            <p>
-                Enjoy stress free lunch and contribute. This option is exclusive to the members of the company.
-            </p>
-
+               
+            <div class="primary-content">
+                <p class="intro"><span class="lead">Tempo Kitchen is a pup-op, temporary canteen and lunch room for small to medium size companies and start-ups</span> 
+                <p>Tired of having butterhamen and rice bread at work? We provide varied selection of daily fresh and nutritious homemade food for your team. </p>
+                <p>Become a member and youll have exclusive access to Six Achers's finest coffee.</p>
+                <!-- <p>You can leave your PB&J sandwiches at home and focus on your creativity!!</p> -->
+                <!-- <p>Passionate about people and culturals our kitchen brings you and your team delicious food from different parts of the world... We use seasonal produce and high quality products.</p> -->
+                <a class="callout" href="">Find Out More</a>
+        
+                <!--What are our services?-->
+                <div class="services">
+                    <h3><a href="">Check out the menu</a></h3>
+                    <p>We are the new generation of canteen catering, a pop-up neighborhood cafe for the temporary urbanism, 
+                        We bring together the community and the creative class, provide an environment where creativity improvises, 
+                        we are the new generation of and We invite you to join in our journey
+                    </p>
+                </div><!--End .services-->
+        
+                <a href="" class="callout">click here</a>
+            </div><!--End .primary-content-->
+            <hr/>
+            <!--memberships-->
+            <div class="flex-container secondary-content group">
+                <div class=" membership one">
+                    <a href="#"><img src="CSS/group.jpg" alt="group-membership"/></a>
+                    <h4>Enterprise membership</h4>
+                    <p>Enjoy stress free lunch and contribute. This option is exclusive to the members of the company </p>
+                    <ul>
+                        <li>Exclusive access to snack bar (incl.coffee, breakfast, snacks)</li>
+                        <li>Daily access to our lunch room</li>
+                        <li>Free subscription</li>
+                        <li>Free Enterance  Tempo Kitchen's events and activities</li>
+                    </ul>
+                </div>
+                <div class=" membership two">
+                    <a href="#"><img src="CSS/enterprise.jpg" alt="enterprise-membership"/>
+                        <h4>Group membership</h4></a>
+                    <p>This option is available to members of the host company and other business within the 5km of the visinity.
+                    </p>
+                    <ul>
+                        <li>Daily access to our lunch room</li>
+                        <li>Free subscription</li>
+                        <li>50% discount on Tempo Kitchen's events and activities</li>
+                    </ul>
+                </div>
+                <div class=" membership three">
+                    <a href="#"><img src="CSS/individual.jpg" alt="individual-membership"/>
+                        <h4>Individual membership</h4></a>
+                    <p>This option is available,This option is available to members of the host company.
+                    </p>
+                    <ul>
+                        <li>Daily access to our lunch room</li>
+                        <li>Free subscription</li>
+                        <li>50% discount on Tempo Kitchen's events and activities</li>
+                    </ul>
+                </div>       
+            </div>
+            <!--End .secondary-content"-->
+            <div class="contact">
+                <a href="contact.html"><h3>Contact</h3></a>
+                <p>Our Mission:</p>
+                <span class="arrow"> &#8897; </span>
+            </div>
+            
             <ul>
-                <li>Exclusive access to snack bar (incl.coffee, breakfast, snacks)</li>
-                <li>Daily access to our lunch room</li>
-                <li>Free subscription</li>
-                <li>Free Enterance  Tempo Kitchen's events and activities</li>
+                <li>On-site catering company providing breakfast and lunch to startups and small business</li>
+                <li>We provide daily fresh sandwiches and fresh juice and snacks for a company size 20 to 50 peopl</li>
+                <li>We run a community cafe and organize and run activities</li>
+                <li>We run the canteen for the Startup companies</li>
+                <li>We pay rent for the use of floor space (kitchen space) to the Startup</li>
             </ul>
-        </div>
-        <div class="two">
-            <a href="#"><img src="CSS/enterprise.jpg" alt="enterprise-membership"/>
-                <h4>Group membership</h4></a>
-            <p>This option is available to members of the host company and other business within the 5km of the visinity.
+            <h3>Why do we do it</h3>
+            <p>use of temporary spaces in a collaborative way, can flourish cultural innovation and enable social empowerment.
             </p>
-
-            <ul>
-                <li>Daily access to our lunch room</li>
-                <li>Free subscription</li>
-                <li>50% discount on Tempo Kitchen's events and activities</li>
-            </ul>
-        </div>
-        <div class="three">
-            <a href="#"><img src="CSS/individual.jpg" alt="individual-membership"/>
-                <h4>Individual membership</h4></a>
-            <p>This option is available,This option is available to members of the host company.
-            </p>
-
-            <ul>
-                <li>Daily access to our lunch room</li>
-                <li>Free subscription</li>
-                <li>50% discount on Tempo Kitchen's events and activities</li>
-            </ul>
-        </div>
-
-    </div>
-    <!--End .secondary-content"-->
-    <div class="contact">
-        <a href="contact.html"><h3>Contact</h3></a>
-        <p>Our Mission:</p>
-        <span class="arrow"> &#8897; </span>
-    </div>
-    <!--
-        <ul>
-          <li>On-site catering company providing breakfast and lunch to startups and small business</li>
-          <li>We provide daily fresh sandwiches and fresh juice and snacks for a company size 20 to 50 peopl</li>
-          <li>We run a community cafe and organize and run activities</li>
-          <li>We run the canteen for the Startup companies</li>
-          <li>We pay rent for the use of floor space (kitchen space) to the Startup</li>
-        </ul>
-        <h3>Why do we do it</h3>
-        <p>use of temporary spaces in a collaborative way, can flourish cultural innovation and enable social empowerment.
-        </p>-->
-        <footer id="main-footer" class="t-border">
-            <p>All rights reserved to the Tempo Kitchen Co</p>
-            <a href="#top">Back to top</a>
-        </footer>
+            <footer id="main-footer" class="t-border">
+                <p>All rights reserved to the Tempo Kitchen Co</p>
+                <a href="#top">Back to top</a>
+            </footer>
+       </div>        
     </body>
 </html>
