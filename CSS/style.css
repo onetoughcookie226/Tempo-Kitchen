@@ -2,10 +2,20 @@
 body{
     color: grey;
     margin: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     /* font-family: Helvetica, ans-serif; monospace; */
     /* font-weight: 40px;
     line-height: 1.5 */
+}
+
+.sub {
+    color: snow;
+    font-weight: 700;
+}
+
+ul, li {
+    font-family: Helvetica, ans-serif;
+    font-weight: 100;
 }
 
 .flex-container {
@@ -37,6 +47,9 @@ h4 {
     font-weight: bolder;
 }
 
+.nav {
+    list-style-type: none;
+}
 
 ul {
     list-style-type: circle;
@@ -46,9 +59,11 @@ ul {
 }
 
 
+
 /*Pseudo-Classes--need to add the href atribut-------------*/
 a:link {
     color: lightblue;
+    text-decoration: none;
 }
 
 a:visited {
@@ -62,11 +77,6 @@ a:hover {
 /*  a:active {
       color: lightcoral;
   }*/
-
-a:focus {
-    color: white;
-    background-color: orange;
-}
 
 /* Main Styles---*/
 
@@ -105,17 +115,18 @@ a:focus {
 }
 
 .primary-content {
-    padding-top: 25px;
-    padding-bottom: 95px;
-
+    width: 60%;
+    margin: auto;
+    max-width: 900px;
+    padding-top: 40px;
 }
 
-
+/* 
 .secondary-content {
     margin-top: 160x;
     padding-bottom: 170px;
 
-}
+} */
 
 .callout {
     font-size: 1.25em;
@@ -140,23 +151,15 @@ a:focus {
     padding-top: 30px;
     padding-bottom: 40px;
     border-bottom: solid 10px gray;
-
-
+    background-color: #48525c;;
 }
 
 .t-border {
     border-top: 2px solid lightgrey;
 }
 
-
 /*Layout Styles-----------*/
 
-
-.primary-content {
-    width: 60%;
-    margin: auto;
-    max-width: 900px;
-}
 
 /* .secondary-content {
     width: 65%
@@ -168,11 +171,8 @@ a:focus {
     color:  blanchedalmond;
     background-color: #434a52;
     padding: 10% 25%;
-
     border-top: 10px solid blanchedalmond;
     margin: 105px 0 60px;
-
-
 }
 
 .one,
@@ -201,27 +201,16 @@ a:focus {
 .three {
     float: right;
 }
-
-
 /* Float Clearfix----------*/
-
-.group:: after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
 
 p {
     font-weight: lighter;
+    margin: 25px 0 10px;
 }
 
 /*Adding a horizantal line*/
 
-
-
-
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
 
     body {
         background: #384047;
@@ -236,7 +225,7 @@ p {
     h4 {
         color: #66cdaa;
     }
-}
+} */
 
 @media (max-width: 1024px) {
     .primary-content,
